@@ -1,0 +1,39 @@
+header {
+	border: 1px solid;
+	background-color: #00e0d0;
+    padding: 20px;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.menu {
+	float: right;
+	margin-right: 30%;
+}
+
+.menu div {
+	background-color: #91FFF0;
+	margin-right: 14px;
+	padding: 13px;
+	display: inline;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.menu div:hover {
+	background-color: #5A94FF;
+	transition: 0.3s;
+}
+
+.main div {
+	display: none;
+}
+
+#mains {
+	display: block;
+}
